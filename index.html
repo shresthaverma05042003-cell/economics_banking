@@ -1,0 +1,1458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking — 75 UPSC/BPSC-Level MCQs</title>
+    <style>
+        :root {
+            --primary-color: #1a365d;
+            --secondary-color: #2b6cb0;
+            --bg-color: #f7fafc;
+            --card-bg: #ffffff;
+            --text-color: #2d3748;
+            --border-color: #e2e8f0;
+            --success-color: #2f855a;
+            --error-color: #c53030;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        h1 {
+            color: var(--primary-color);
+            margin-bottom: 10px;
+        }
+        .quiz-meta {
+            font-size: 0.95rem;
+            color: #4a5568;
+        }
+        .question-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 25px;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+        .question-number {
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--secondary-color);
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+        .question-text {
+            font-size: 1.05rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+        .options-list {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 20px 0;
+        }
+        .option-item {
+            padding: 12px 15px;
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            margin-bottom: 10px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .option-item:hover {
+            background-color: #ebf8ff;
+            border-color: #bee3f8;
+        }
+        .option-item.correct {
+            background-color: #f0fff4;
+            border-color: #9ae6b4;
+            color: var(--success-color);
+            font-weight: 600;
+        }
+        .option-item.incorrect {
+            background-color: #fff5f5;
+            border-color: #feb2b2;
+            color: var(--error-color);
+        }
+        .explanation-box {
+            background-color: #f7fafc;
+            border-left: 4px solid var(--secondary-color);
+            padding: 15px;
+            margin-top: 15px;
+            border-radius: 0 6px 6px 0;
+            font-size: 0.95rem;
+            display: none;
+        }
+        .explanation-box.show {
+            display: block;
+        }
+        .btn-toggle {
+            background-color: var(--secondary-color);
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: background-color 0.2s;
+        }
+        .btn-toggle:hover {
+            background-color: var(--primary-color);
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>BANKING — Active Recall MCQs </h1>
+        <div class="quiz-meta">Based on Indian Economy Handbook, Chapter 11: Banking</div>
+    </header>
+
+    <div id="quiz-container">
+
+        <!-- Question 1 -->
+        <div class="question-card" data-answer="A">
+            <div class="question-number">Question 1</div>
+            <div class="question-text">With reference to the evolution of Indian banking, consider the following statements:<br>
+            1. The Bank of Hindustan was established before the Presidency Banks merged.<br>
+            2. The three Presidency Banks merged to form the Imperial Bank of India in 1921.<br>
+            3. The RBI was established before the Imperial Bank of India was formed.<br>
+            Which are correct?</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. 1 and 2 only</li>
+                <li class="option-item" data-option="B">B. 2 and 3 only</li>
+                <li class="option-item" data-option="C">C. 1 and 3 only</li>
+                <li class="option-item" data-option="D">D. 1, 2 and 3</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: A</strong><br>
+                <strong>Explanation:</strong> Statements 1 and 2 are supported by the notes. Imperial Bank was formed in 1921; RBI was established in 1935, so statement 3 is false.
+            </div>
+        </div>
+
+        <!-- Question 2 -->
+        <div class="question-card" data-answer="B">
+            <div class="question-number">Question 2</div>
+            <div class="question-text">Which sequence is chronologically correct?</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. RBI established → Imperial Bank formed → SBI created → NABARD established</li>
+                <li class="option-item" data-option="B">B. Imperial Bank formed → RBI established → SBI created → NABARD established</li>
+                <li class="option-item" data-option="C">C. Imperial Bank formed → SBI created → RBI established → NABARD established</li>
+                <li class="option-item" data-option="D">D. Bank of Hindustan → RBI established → Imperial Bank formed → SBI created</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: B</strong><br>
+                <strong>Explanation:</strong> Imperial Bank: 1921; RBI: 1935; SBI: 1955; NABARD: 1982.
+            </div>
+        </div>
+
+        <!-- Question 3 -->
+        <div class="question-card" data-answer="B">
+            <div class="question-number">Question 3</div>
+            <div class="question-text">Which of the following best captures the stated rationale for nationalising major commercial banks in 1969 and 1980?</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. To replace all commercial banks with cooperative banks</li>
+                <li class="option-item" data-option="B">B. To direct banking toward agriculture, small industries and weaker sections</li>
+                <li class="option-item" data-option="C">C. To transfer currency issuance from RBI to the government</li>
+                <li class="option-item" data-option="D">D. To end all government involvement in credit allocation</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: B</strong><br>
+                <strong>Explanation:</strong> The notes identify priority-sector and weaker-section access as the main rationale.
+            </div>
+        </div>
+
+        <!-- Question 4 -->
+        <div class="question-card" data-answer="B">
+            <div class="question-number">Question 4</div>
+            <div class="question-text">Consider the following about post-1991 banking reforms:<br>
+            1. They expanded private-sector participation.<br>
+            2. They strengthened prudential regulation and capital adequacy norms.<br>
+            3. They reduced competition and operational autonomy.<br>
+            Which is correct?</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. 1 only</li>
+                <li class="option-item" data-option="B">B. 1 and 2 only</li>
+                <li class="option-item" data-option="C">C. 2 and 3 only</li>
+                <li class="option-item" data-option="D">D. 1, 2 and 3</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: B</strong><br>
+                <strong>Explanation:</strong> The reforms increased competition and autonomy, so statement 3 is contrary to the notes.
+            </div>
+        </div>
+
+        <!-- Question 5 -->
+        <div class="question-card" data-answer="B">
+            <div class="question-number">Question 5</div>
+            <div class="question-text">A bank receives a customer's fixed deposit. In the bank's balance sheet, this is primarily:</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. An asset, because it can be lent</li>
+                <li class="option-item" data-option="B">B. A liability, because the bank owes the depositor</li>
+                <li class="option-item" data-option="C">C. Capital, because it belongs to shareholders</li>
+                <li class="option-item" data-option="D">D. An off-balance-sheet item</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: B</strong><br>
+                <strong>Explanation:</strong> Customer deposits are liabilities of the bank. The bank's loans and investments are assets.
+            </div>
+        </div>
+
+        <!-- Question 6 -->
+        <div class="question-card" data-answer="C">
+            <div class="question-number">Question 6</div>
+            <div class="question-text">Which of the following is correctly matched?</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. Safe-deposit boxes — primary function</li>
+                <li class="option-item" data-option="B">B. Accepting deposits — secondary function</li>
+                <li class="option-item" data-option="C">C. Providing loans — primary function</li>
+                <li class="option-item" data-option="D">D. Foreign exchange services — only function of central banks</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: C</strong><br>
+                <strong>Explanation:</strong> The notes classify accepting deposits and providing loans as primary functions; the others listed are secondary services.
+            </div>
+        </div>
+
+        <!-- Question 7 -->
+        <div class="question-card" data-answer="B">
+            <div class="question-number">Question 7</div>
+            <div class="question-text">Under the classification shown in the notes, which group is placed under scheduled banks?</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. Only public-sector and private-sector banks</li>
+                <li class="option-item" data-option="B">B. Commercial banks, small finance banks, payments banks and cooperative banks</li>
+                <li class="option-item" data-option="C">C. AIFIs alone</li>
+                <li class="option-item" data-option="D">D. Only non-scheduled cooperative banks</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: B</strong><br>
+                <strong>Explanation:</strong> The diagram places these bank categories under scheduled banks; AIFIs are shown separately in the notes' diagram.
+            </div>
+        </div>
+
+        <!-- Question 8 -->
+        <div class="question-card" data-answer="B">
+            <div class="question-number">Question 8</div>
+            <div class="question-text">Which statement about RBI currency functions is correct according to the chapter?</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. RBI mints all coins under the Coinage Act, 2011</li>
+                <li class="option-item" data-option="B">B. RBI issues currency notes, while coins are minted by the Government of India and distributed by RBI</li>
+                <li class="option-item" data-option="C">C. Government of India issues all currency notes and RBI only prints coins</li>
+                <li class="option-item" data-option="D">D. Commercial banks issue notes under RBI supervision</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: B</strong><br>
+                <strong>Explanation:</strong> The notes distinguish RBI's authority to issue currency notes from government coin minting and RBI distribution.
+            </div>
+        </div>
+
+        <!-- Question 9 -->
+        <div class="question-card" data-answer="A">
+            <div class="question-number">Question 9</div>
+            <div class="question-text">Which set contains only functions attributed to RBI in the chapter?</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. Monetary policy, foreign-exchange reserve management, banker to government</li>
+                <li class="option-item" data-option="B">B. Issuing company shares, running PACS, setting GST rates</li>
+                <li class="option-item" data-option="C">C. Managing all bank branches, lending directly to every farmer, minting coins</li>
+                <li class="option-item" data-option="D">D. Setting fiscal deficit targets, collecting income tax, regulating insurance exclusively</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: A</strong><br>
+                <strong>Explanation:</strong> All three listed in A are explicitly described RBI functions.
+            </div>
+        </div>
+
+        <!-- Question 10 -->
+        <div class="question-card" data-answer="B">
+            <div class="question-number">Question 10</div>
+            <div class="question-text">A bank faces a temporary liquidity shortage during a panic. Which RBI role most directly addresses this situation?</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. Banker to government</li>
+                <li class="option-item" data-option="B">B. Lender of last resort</li>
+                <li class="option-item" data-option="C">C. Developmental role</li>
+                <li class="option-item" data-option="D">D. Currency distribution agent only</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: B</strong><br>
+                <strong>Explanation:</strong> The lender-of-last-resort function involves emergency assistance to banks facing temporary liquidity problems.
+            </div>
+        </div>
+
+        <!-- Question 11 -->
+        <div class="question-card" data-answer="B">
+            <div class="question-number">Question 11</div>
+            <div class="question-text">Which feature most directly distinguishes a scheduled bank in the chapter's comparison?</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. It is necessarily government-owned</li>
+                <li class="option-item" data-option="B">B. It is listed in the Second Schedule of the RBI Act, 1934</li>
+                <li class="option-item" data-option="C">C. It cannot maintain CRR</li>
+                <li class="option-item" data-option="D">D. It cannot participate in clearing systems</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: B</strong><br>
+                <strong>Explanation:</strong> Scheduled status is defined by inclusion in the Second Schedule. Other claims do not follow.
+            </div>
+        </div>
+
+        <!-- Question 12 -->
+        <div class="question-card" data-answer="B">
+            <div class="question-number">Question 12</div>
+            <div class="question-text">Consider the ownership pattern of Regional Rural Banks stated in the notes. Which allocation is correct?</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. Centre 35%, State 50%, sponsor bank 15%</li>
+                <li class="option-item" data-option="B">B. Centre 50%, State 15%, sponsor bank 35%</li>
+                <li class="option-item" data-option="C">C. Centre 15%, State 35%, sponsor bank 50%</li>
+                <li class="option-item" data-option="D">D. Centre 50%, State 35%, sponsor bank 15%</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: B</strong><br>
+                <strong>Explanation:</strong> The chapter gives the RRB ownership split as 50:15:35.
+            </div>
+        </div>
+
+        <!-- Question 13 -->
+        <div class="question-card" data-answer="B">
+            <div class="question-number">Question 13</div>
+            <div class="question-text">A bank's mandate requires at least 75% of its loans to go to priority sectors and its minimum capital adequacy ratio is 15%. Which type best fits the chapter?</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. Payments bank</li>
+                <li class="option-item" data-option="B">B. Small finance bank</li>
+                <li class="option-item" data-option="C">C. NBFC-Asset Finance Company</li>
+                <li class="option-item" data-option="D">D. Foreign bank branch</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: B</strong><br>
+                <strong>Explanation:</strong> The notes give scheduled small finance banks a 75% priority-sector lending target and 15% minimum capital adequacy ratio.
+            </div>
+        </div>
+
+        <!-- Question 14 -->
+        <div class="question-card" data-answer="C">
+            <div class="question-number">Question 14</div>
+            <div class="question-text">Which activity is specifically prohibited for payments banks in the notes?</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. Accepting customer deposits</li>
+                <li class="option-item" data-option="B">B. Providing remittance services</li>
+                <li class="option-item" data-option="C">C. Issuing credit cards and lending money</li>
+                <li class="option-item" data-option="D">D. Facilitating merchant payments</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: C</strong><br>
+                <strong>Explanation:</strong> The notes state payments banks cannot lend or issue credit cards, while they can provide payment services and accept deposits.
+            </div>
+        </div>
+
+        <!-- Question 15 -->
+        <div class="question-card" data-answer="A">
+            <div class="question-number">Question 15</div>
+            <div class="question-text">Which statement correctly distinguishes a foreign bank's wholly owned subsidiary from its branch model?</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. A WOS is incorporated in India but fully owned by a foreign parent</li>
+                <li class="option-item" data-option="B">B. A branch is always incorporated as an Indian company</li>
+                <li class="option-item" data-option="C">C. A WOS is exempt from RBI supervision</li>
+                <li class="option-item" data-option="D">D. A branch must be jointly owned by the Centre and State</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: A</strong><br>
+                <strong>Explanation:</strong> The chapter defines a WOS as incorporated in India and fully owned by a foreign parent bank.
+            </div>
+        </div>
+
+        <!-- Question 16 -->
+        <div class="question-card" data-answer="B">
+            <div class="question-number">Question 16</div>
+            <div class="question-text">Which statement about cooperative-bank membership is consistent with the chapter?</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. Every depositor automatically owns the bank</li>
+                <li class="option-item" data-option="B">B. Members have one vote regardless of deposits or borrowing, and membership requires at least one share</li>
+                <li class="option-item" data-option="C">C. Voting power is proportional to deposit size</li>
+                <li class="option-item" data-option="D">D. Only the RBI can admit members</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: B</strong><br>
+                <strong>Explanation:</strong> The notes distinguish members/owners from ordinary account holders and state the one-member-one-vote principle.
+            </div>
+        </div>
+
+        <!-- Question 17 -->
+        <div class="question-card" data-answer="B">
+            <div class="question-number">Question 17</div>
+            <div class="question-text">Which sequence represents the short-term rural cooperative credit structure from top to grassroots?</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. PACS → DCCB → StCB</li>
+                <li class="option-item" data-option="B">B. StCB → DCCB → PACS</li>
+                <li class="option-item" data-option="C">C. DCCB → PACS → StCB</li>
+                <li class="option-item" data-option="D">D. StCB → SCARDB → PCARDB</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: B</strong><br>
+                <strong>Explanation:</strong> Short-term rural cooperative credit follows the three-tier structure: State Cooperative Bank, DCCB, PACS.
+            </div>
+        </div>
+
+        <!-- Question 18 -->
+        <div class="question-card" data-answer="C">
+            <div class="question-number">Question 18</div>
+            <div class="question-text">Which pair belongs to the long-term rural cooperative credit structure?</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. StCB and DCCB</li>
+                <li class="option-item" data-option="B">B. DCCB and PACS</li>
+                <li class="option-item" data-option="C">C. SCARDB and PCARDB</li>
+                <li class="option-item" data-option="D">D. UCB and PACS</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: C</strong><br>
+                <strong>Explanation:</strong> The notes describe SCARDBs and PCARDBs as the two tiers for long-term rural credit.
+            </div>
+        </div>
+
+        <!-- Question 19 -->
+        <div class="question-card" data-answer="B">
+            <div class="question-number">Question 19</div>
+            <div class="question-text">In the duality of control described for cooperative banks, which pairing is correct?</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. RBI — cooperative registration; Registrar — monetary policy</li>
+                <li class="option-item" data-option="B">B. RBI — banking-related functions; Registrar — cooperative-related functions</li>
+                <li class="option-item" data-option="C">C. State government — currency issuance; RBI — cooperative elections</li>
+                <li class="option-item" data-option="D">D. Central Registrar — all single-state societies</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: B</strong><br>
+                <strong>Explanation:</strong> RBI handles banking functions such as licensing and supervision; the relevant Registrar handles registration, elections and member rights.
+            </div>
+        </div>
+
+        <!-- Question 20 -->
+        <div class="question-card" data-answer="D">
+            <div class="question-number">Question 20</div>
+            <div class="question-text">Which is NOT listed as a challenge faced by cooperative banks?</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. Governance weaknesses</li>
+                <li class="option-item" data-option="B">B. Capital adequacy constraints</li>
+                <li class="option-item" data-option="C">C. Technological lag</li>
+                <li class="option-item" data-option="D">D. Excessively high international branch density</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: D</strong><br>
+                <strong>Explanation:</strong> The notes list compliance, governance, capital, technology and asset-quality challenges, not international branch density.
+            </div>
+        </div>
+
+        <!-- Question 21 -->
+        <div class="question-card" data-answer="B">
+            <div class="question-number">Question 21</div>
+            <div class="question-text">Payment and settlement are best distinguished as:</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. Payment is the interbank final transfer; settlement is the customer's purchase</li>
+                <li class="option-item" data-option="B">B. Payment is the transfer to meet an obligation; settlement is the transfer of funds between banks to complete it</li>
+                <li class="option-item" data-option="C">C. They are interchangeable terms with no distinction</li>
+                <li class="option-item" data-option="D">D. Settlement occurs only for cash transactions</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: B</strong><br>
+                <strong>Explanation:</strong> This follows the chapter's definitions and grocery/debit-card examples.
+            </div>
+        </div>
+
+        <!-- Question 22 -->
+        <div class="question-card" data-answer="B">
+            <div class="question-number">Question 22</div>
+            <div class="question-text">Which institution manages retail payment systems such as UPI, IMPS, RuPay, NEFT, BBPS and NACH according to the chapter?</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. SEBI</li>
+                <li class="option-item" data-option="B">B. NPCI</li>
+                <li class="option-item" data-option="C">C. NABARD</li>
+                <li class="option-item" data-option="D">D. DICGC</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: B</strong><br>
+                <strong>Explanation:</strong> NPCI is described as the umbrella organization managing these retail payment and settlement systems.
+            </div>
+        </div>
+
+        <!-- Question 23 -->
+        <div class="question-card" data-answer="B">
+            <div class="question-number">Question 23</div>
+            <div class="question-text">A payment of ₹1.5 lakh is to be transferred. Based solely on the chapter's description of RTGS, which conclusion follows?</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. It necessarily qualifies because RTGS has no threshold</li>
+                <li class="option-item" data-option="B">B. It falls below the stated ₹2 lakh-and-above RTGS threshold</li>
+                <li class="option-item" data-option="C">C. It must use SWIFT</li>
+                <li class="option-item" data-option="D">D. It can only be settled by cheque</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: B</strong><br>
+                <strong>Explanation:</strong> The chapter describes RTGS as for transactions of ₹2 lakh and above. This question tests the note's stated threshold.
+            </div>
+        </div>
+
+        <!-- Question 24 -->
+        <div class="question-card" data-answer="B">
+            <div class="question-number">Question 24</div>
+            <div class="question-text">Which payment system is described as transferring funds in half-hourly batches while being available 24×7?</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. RTGS</li>
+                <li class="option-item" data-option="B">B. NEFT</li>
+                <li class="option-item" data-option="C">C. CTS</li>
+                <li class="option-item" data-option="D">D. NFS</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: B</strong><br>
+                <strong>Explanation:</strong> The notes associate half-hourly batches and 24×7 availability with NEFT.
+            </div>
+        </div>
+
+        <!-- Question 25 -->
+        <div class="question-card" data-answer="A">
+            <div class="question-number">Question 25</div>
+            <div class="question-text">A transaction needs instant 24×7 transfer using mobile, internet or ATM, without the question specifying a VPA. Which system best fits the chapter's description?</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. IMPS</li>
+                <li class="option-item" data-option="B">B. CTS</li>
+                <li class="option-item" data-option="C">C. NACH</li>
+                <li class="option-item" data-option="D">D. BBPS</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: A</strong><br>
+                <strong>Explanation:</strong> IMPS is described as providing instant 24×7 transfers via mobile, internet or ATMs.
+            </div>
+        </div>
+
+        <!-- Question 26 -->
+        <div class="question-card" data-answer="B">
+            <div class="question-number">Question 26</div>
+            <div class="question-text">Which payment system is specifically described as using a Virtual Payment Address instead of bank details?</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. NEFT</li>
+                <li class="option-item" data-option="B">B. UPI</li>
+                <li class="option-item" data-option="C">C. NACH</li>
+                <li class="option-item" data-option="D">D. CTS</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: B</strong><br>
+                <strong>Explanation:</strong> The chapter highlights UPI's use of a VPA and QR codes.
+            </div>
+        </div>
+
+        <!-- Question 27 -->
+        <div class="question-card" data-answer="B">
+            <div class="question-number">Question 27</div>
+            <div class="question-text">A company needs to process recurring salaries, pensions, subsidies and loan EMIs in bulk. Which system is the closest match?</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. BBPS</li>
+                <li class="option-item" data-option="B">B. NACH</li>
+                <li class="option-item" data-option="C">C. RTGS</li>
+                <li class="option-item" data-option="D">D. SWIFT</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: B</strong><br>
+                <strong>Explanation:</strong> NACH is described as designed for bulk and repetitive payments.
+            </div>
+        </div>
+
+        <!-- Question 28 -->
+        <div class="question-card" data-answer="A">
+            <div class="question-number">Question 28</div>
+            <div class="question-text">Which option correctly pairs a system with its primary use?</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. BBPS — recurring bill payments</li>
+                <li class="option-item" data-option="B">B. CTS — global financial messaging</li>
+                <li class="option-item" data-option="C">C. NFS — monetary policy implementation</li>
+                <li class="option-item" data-option="D">D. SWIFT — domestic ATM routing only</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: A</strong><br>
+                <strong>Explanation:</strong> BBPS centralizes bill payments. CTS uses cheque images; NFS routes ATM transactions; SWIFT is an international financial messaging network.
+            </div>
+        </div>
+
+        <!-- Question 29 -->
+        <div class="question-card" data-answer="C">
+            <div class="question-number">Question 29</div>
+            <div class="question-text">Which statement about settlement mechanisms matches the chapter?</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. Gross settlement accumulates transactions into batches</li>
+                <li class="option-item" data-option="B">B. Net settlement settles each transaction individually and immediately</li>
+                <li class="option-item" data-option="C">C. Gross settlement settles each transaction individually; net settlement aggregates transactions for batch settlement</li>
+                <li class="option-item" data-option="D">D. Both mechanisms necessarily eliminate liquidity needs</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: C</strong><br>
+                <strong>Explanation:</strong> The chapter contrasts individual immediate gross settlement with batch-based net settlement.
+            </div>
+        </div>
+
+        <!-- Question 30 -->
+        <div class="question-card" data-answer="A">
+            <div class="question-number">Question 30</div>
+            <div class="question-text">Which system is described as connecting different banks' ATM networks and being managed by NPCI?</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. NFS</li>
+                <li class="option-item" data-option="B">B. LCR</li>
+                <li class="option-item" data-option="C">C. BBPS</li>
+                <li class="option-item" data-option="D">D. SARFAESI</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: A</strong><br>
+                <strong>Explanation:</strong> The National Financial Switch routes other-bank ATM requests and provides interoperability.
+            </div>
+        </div>
+
+        <!-- Question 31 -->
+        <div class="question-card" data-answer="C">
+            <div class="question-number">Question 31</div>
+            <div class="question-text">Which is the most accurate statement about NBFCs according to the chapter?</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. They can accept demand deposits like banks</li>
+                <li class="option-item" data-option="B">B. They are not regulated by RBI</li>
+                <li class="option-item" data-option="C">C. They do not accept demand deposits and may fund themselves through borrowing, time deposits, bonds or debentures</li>
+                <li class="option-item" data-option="D">D. They are necessarily government-owned development institutions</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: C</strong><br>
+                <strong>Explanation:</strong> This captures the chapter's core distinction between banks and NBFCs.
+            </div>
+        </div>
+
+        <!-- Question 32 -->
+        <div class="question-card" data-answer="B">
+            <div class="question-number">Question 32</div>
+            <div class="question-text">Which NBFC type is primarily associated with financing vehicles, machinery and equipment?</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. Investment Company</li>
+                <li class="option-item" data-option="B">B. Asset Finance Company</li>
+                <li class="option-item" data-option="C">C. Core Investment Company</li>
+                <li class="option-item" data-option="D">D. Microfinance Institution</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: B</strong><br>
+                <strong>Explanation:</strong> Asset Finance Companies focus on financing physical assets.
+            </div>
+        </div>
+
+        <!-- Question 33 -->
+        <div class="question-card" data-answer="C">
+            <div class="question-number">Question 33</div>
+            <div class="question-text">Which NBFC type is described as large and interconnected, attracting stricter regulation and higher capital requirements?</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. Loan Company</li>
+                <li class="option-item" data-option="B">B. Asset Finance Company</li>
+                <li class="option-item" data-option="C">C. Systemically Important Core Investment Company</li>
+                <li class="option-item" data-option="D">D. Microfinance Company</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: C</strong><br>
+                <strong>Explanation:</strong> This is the description given for systemically important CICs.
+            </div>
+        </div>
+
+        <!-- Question 34 -->
+        <div class="question-card" data-answer="A">
+            <div class="question-number">Question 34</div>
+            <div class="question-text">Which institution's principal focus is MSME development, including direct financing, refinancing, developmental services and venture capital through a subsidiary?</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. SIDBI</li>
+                <li class="option-item" data-option="B">B. NHB</li>
+                <li class="option-item" data-option="C">C. Exim Bank</li>
+                <li class="option-item" data-option="D">D. NaBFID</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: A</strong><br>
+                <strong>Explanation:</strong> SIDBI is identified as the principal financial institution for MSMEs and offers all these services.
+            </div>
+        </div>
+
+        <!-- Question 35 -->
+        <div class="question-card" data-answer="A">
+            <div class="question-number">Question 35</div>
+            <div class="question-text">Which sequence correctly matches MUDRA loan categories with their stated bands in the chapter?</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. Shishu: up to ₹50,000; Kishor: ₹50,001–₹5 lakh; Tarun: ₹5–10 lakh; Tarun Plus: ₹10–20 lakh</li>
+                <li class="option-item" data-option="B">B. Shishu: ₹50,001–₹5 lakh; Kishor: up to ₹50,000; Tarun: ₹10–20 lakh; Tarun Plus: ₹5–10 lakh</li>
+                <li class="option-item" data-option="C">C. Shishu: up to ₹5 lakh; Kishor: ₹5–10 lakh; Tarun: ₹10–20 lakh; Tarun Plus: above ₹20 lakh</li>
+                <li class="option-item" data-option="D">D. Shishu: up to ₹50,000; Kishor: ₹5–10 lakh; Tarun: ₹50,001–₹5 lakh; Tarun Plus: ₹10–20 lakh</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: A</strong><br>
+                <strong>Explanation:</strong> These are the categories and ranges as stated in the uploaded chapter.
+            </div>
+        </div>
+
+        <!-- Question 36 -->
+        <div class="question-card" data-answer="B">
+            <div class="question-number">Question 36</div>
+            <div class="question-text">Which institution is described as supporting rural credit largely through refinancing commercial banks, RRBs and cooperative banks?</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. Exim Bank</li>
+                <li class="option-item" data-option="B">B. NABARD</li>
+                <li class="option-item" data-option="C">C. NHB</li>
+                <li class="option-item" data-option="D">D. NaBFID</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: B</strong><br>
+                <strong>Explanation:</strong> The notes emphasize NABARD's agriculture/rural development role and refinancing channel.
+            </div>
+        </div>
+
+        <!-- Question 37 -->
+        <div class="question-card" data-answer="C">
+            <div class="question-number">Question 37</div>
+            <div class="question-text">A firm seeks pre-shipment finance, export credit guarantees and overseas investment finance. Which institution is the best fit?</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. SIDBI</li>
+                <li class="option-item" data-option="B">B. NHB</li>
+                <li class="option-item" data-option="C">C. Exim Bank</li>
+                <li class="option-item" data-option="D">D. NaBFID</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: C</strong><br>
+                <strong>Explanation:</strong> Exim Bank's listed services include pre-/post-shipment finance, guarantees and overseas investment finance.
+            </div>
+        </div>
+
+        <!-- Question 38 -->
+        <div class="question-card" data-answer="A">
+            <div class="question-number">Question 38</div>
+            <div class="question-text">Which institution's core role in the chapter is refinancing for the housing sector and technical support to housing finance companies?</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. NHB</li>
+                <li class="option-item" data-option="B">B. NABARD</li>
+                <li class="option-item" data-option="C">C. SIDBI</li>
+                <li class="option-item" data-option="D">D. NPCI</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: A</strong><br>
+                <strong>Explanation:</strong> NHB is described as supporting the housing sector, especially through refinancing.
+            </div>
+        </div>
+
+        <!-- Question 39 -->
+        <div class="question-card" data-answer="A">
+            <div class="question-number">Question 39</div>
+            <div class="question-text">Which institution is specifically associated with long-term infrastructure debt, credit enhancement, municipal bonds and green infrastructure?</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. NaBFID</li>
+                <li class="option-item" data-option="B">B. MUDRA</li>
+                <li class="option-item" data-option="C">C. DICGC</li>
+                <li class="option-item" data-option="D">D. NFS</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: A</strong><br>
+                <strong>Explanation:</strong> These are the roles listed for NaBFID in the chapter.
+            </div>
+        </div>
+
+        <!-- Question 40 -->
+        <div class="question-card" data-answer="B">
+            <div class="question-number">Question 40</div>
+            <div class="question-text">A bank's total assets are ₹20,000 crore and net income is ₹600 crore. Its RoA is:</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. 2%</li>
+                <li class="option-item" data-option="B">B. 3%</li>
+                <li class="option-item" data-option="C">C. 6%</li>
+                <li class="option-item" data-option="D">D. 30%</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: B</strong><br>
+                <strong>Explanation:</strong> RoA = net income / total assets × 100 = 600/20,000 × 100 = 3%.
+            </div>
+        </div>
+
+        <!-- Question 41 -->
+        <div class="question-card" data-answer="C">
+            <div class="question-number">Question 41</div>
+            <div class="question-text">A bank earns net income of ₹900 crore on shareholder equity of ₹4,500 crore. RoE equals:</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. 5%</li>
+                <li class="option-item" data-option="B">B. 15%</li>
+                <li class="option-item" data-option="C">C. 20%</li>
+                <li class="option-item" data-option="D">D. 50%</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: C</strong><br>
+                <strong>Explanation:</strong> RoE = net income / shareholder equity × 100 = 900/4,500 × 100 = 20%.
+            </div>
+        </div>
+
+        <!-- Question 42 -->
+        <div class="question-card" data-answer="A">
+            <div class="question-number">Question 42</div>
+            <div class="question-text">Interest income is ₹1,200 crore, interest expense ₹720 crore and average earning assets ₹12,000 crore. NIM is:</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. 4%</li>
+                <li class="option-item" data-option="B">B. 6%</li>
+                <li class="option-item" data-option="C">C. 10%</li>
+                <li class="option-item" data-option="D">D. 16%</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: A</strong><br>
+                <strong>Explanation:</strong> NIM = (1,200 − 720) / 12,000 × 100 = 4%.
+            </div>
+        </div>
+
+        <!-- Question 43 -->
+        <div class="question-card" data-answer="B">
+            <div class="question-number">Question 43</div>
+            <div class="question-text">A bank starts with ₹25,000 crore of standard loans; ₹750 crore of these become NPAs during the year. Using the chapter's formula, slippage ratio is:</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. 0.3%</li>
+                <li class="option-item" data-option="B">B. 3%</li>
+                <li class="option-item" data-option="C">C. 7.5%</li>
+                <li class="option-item" data-option="D">D. 30%</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: B</strong><br>
+                <strong>Explanation:</strong> Slippage ratio = loans slipping into NPA / starting standard loans × 100 = 750/25,000 × 100 = 3%.
+            </div>
+        </div>
+
+        <!-- Question 44 -->
+        <div class="question-card" data-answer="B">
+            <div class="question-number">Question 44</div>
+            <div class="question-text">Gross NPAs are ₹1,800 crore and gross advances are ₹60,000 crore. Gross NPA ratio is:</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. 0.3%</li>
+                <li class="option-item" data-option="B">B. 3%</li>
+                <li class="option-item" data-option="C">C. 30%</li>
+                <li class="option-item" data-option="D">D. 33.3%</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: B</strong><br>
+                <strong>Explanation:</strong> NPA ratio = gross NPAs / gross advances × 100 = 1,800/60,000 × 100 = 3%.
+            </div>
+        </div>
+
+        <!-- Question 45 -->
+        <div class="question-card" data-answer="B">
+            <div class="question-number">Question 45</div>
+            <div class="question-text">A loan has remained an NPA for 10 months. Under the categories stated in the notes, it is:</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. Standard</li>
+                <li class="option-item" data-option="B">B. Sub-standard</li>
+                <li class="option-item" data-option="C">C. Doubtful</li>
+                <li class="option-item" data-option="D">D. Loss asset automatically</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: B</strong><br>
+                <strong>Explanation:</strong> Sub-standard assets are described as NPAs for up to 12 months.
+            </div>
+        </div>
+
+        <!-- Question 46 -->
+        <div class="question-card" data-answer="C">
+            <div class="question-number">Question 46</div>
+            <div class="question-text">A loan has remained in the sub-standard category for 14 months. Under the chapter's classification, it is:</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. Standard</li>
+                <li class="option-item" data-option="B">B. Sub-standard</li>
+                <li class="option-item" data-option="C">C. Doubtful</li>
+                <li class="option-item" data-option="D">D. Loss asset automatically</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: C</strong><br>
+                <strong>Explanation:</strong> The notes define doubtful assets as assets that have remained sub-standard for 12 months or more.
+            </div>
+        </div>
+
+        <!-- Question 47 -->
+        <div class="question-card" data-answer="B">
+            <div class="question-number">Question 47</div>
+            <div class="question-text">A bank has Tier I capital ₹240 crore, Tier II capital ₹60 crore and RWA ₹3,000 crore. CAR equals:</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. 8%</li>
+                <li class="option-item" data-option="B">B. 10%</li>
+                <li class="option-item" data-option="C">C. 12%</li>
+                <li class="option-item" data-option="D">D. 20%</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: B</strong><br>
+                <strong>Explanation:</strong> CAR = (Tier I + Tier II) / RWA × 100 = 300/3,000 × 100 = 10%.
+            </div>
+        </div>
+
+        <!-- Question 48 -->
+        <div class="question-card" data-answer="C">
+            <div class="question-number">Question 48</div>
+            <div class="question-text">Which change would, other things equal, reduce a bank's CAR?</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. Higher eligible capital with unchanged RWA</li>
+                <li class="option-item" data-option="B">B. Lower RWA with unchanged capital</li>
+                <li class="option-item" data-option="C">C. Higher RWA with unchanged capital</li>
+                <li class="option-item" data-option="D">D. Higher Tier II capital with unchanged RWA</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: C</strong><br>
+                <strong>Explanation:</strong> CAR is capital divided by risk-weighted assets; a higher denominator lowers the ratio, all else equal.
+            </div>
+        </div>
+
+        <!-- Question 49 -->
+        <div class="question-card" data-answer="B">
+            <div class="question-number">Question 49</div>
+            <div class="question-text">Which metric is explicitly designed to cover net cash outflows during a 30-day stress period?</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. NSFR</li>
+                <li class="option-item" data-option="B">B. LCR</li>
+                <li class="option-item" data-option="C">C. CAR</li>
+                <li class="option-item" data-option="D">D. RoE</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: B</strong><br>
+                <strong>Explanation:</strong> LCR compares high-quality liquid assets with expected net cash outflows over 30 days under stress.
+            </div>
+        </div>
+
+        <!-- Question 50 -->
+        <div class="question-card" data-answer="C">
+            <div class="question-number">Question 50</div>
+            <div class="question-text">Which metric focuses on stable funding relative to required stable funding based on asset and liability liquidity profiles?</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. NIM</li>
+                <li class="option-item" data-option="B">B. Slippage ratio</li>
+                <li class="option-item" data-option="C">C. NSFR</li>
+                <li class="option-item" data-option="D">D. Gross NPA ratio</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: C</strong><br>
+                <strong>Explanation:</strong> NSFR measures available stable funding relative to required stable funding.
+            </div>
+        </div>
+
+        <!-- Question 51 -->
+        <div class="question-card" data-answer="A">
+            <div class="question-number">Question 51</div>
+            <div class="question-text">A bank's Tier I capital is ₹180 crore and total exposure is ₹6,000 crore. Its leverage ratio is:</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. 3%</li>
+                <li class="option-item" data-option="B">B. 6%</li>
+                <li class="option-item" data-option="C">C. 9%</li>
+                <li class="option-item" data-option="D">D. 30%</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: A</strong><br>
+                <strong>Explanation:</strong> Leverage ratio = Tier I capital / total exposure × 100 = 180/6,000 × 100 = 3%.
+            </div>
+        </div>
+
+        <!-- Question 52 -->
+        <div class="question-card" data-answer="A">
+            <div class="question-number">Question 52</div>
+            <div class="question-text">Which statement best differentiates CAR from the leverage ratio?</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. CAR uses risk-weighted assets; leverage ratio uses total exposure without risk weights</li>
+                <li class="option-item" data-option="B">B. CAR uses deposits only; leverage ratio uses interest income</li>
+                <li class="option-item" data-option="C">C. CAR measures liquidity; leverage ratio measures NPA slippage</li>
+                <li class="option-item" data-option="D">D. Both use the same denominator by definition</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: A</strong><br>
+                <strong>Explanation:</strong> The chapter explicitly distinguishes risk-weighted assets in CAR from total exposure without risk weights in the leverage ratio.
+            </div>
+        </div>
+
+        <!-- Question 53 -->
+        <div class="question-card" data-answer="A">
+            <div class="question-number">Question 53</div>
+            <div class="question-text">Which Basel framework first introduced a minimum capital requirement of 8% of risk-weighted assets in the chapter's account?</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. Basel I</li>
+                <li class="option-item" data-option="B">B. Basel II</li>
+                <li class="option-item" data-option="C">C. Basel III</li>
+                <li class="option-item" data-option="D">D. Basel IV</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: A</strong><br>
+                <strong>Explanation:</strong> Basel I, introduced in 1988, set the 8% minimum capital requirement described in the notes.
+            </div>
+        </div>
+
+        <!-- Question 54 -->
+        <div class="question-card" data-answer="B">
+            <div class="question-number">Question 54</div>
+            <div class="question-text">Which set of risks is specifically associated with Basel II in the chapter?</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. Only liquidity risk</li>
+                <li class="option-item" data-option="B">B. Credit, operational and market risks</li>
+                <li class="option-item" data-option="C">C. Only foreign-exchange risk</li>
+                <li class="option-item" data-option="D">D. Only sovereign debt risk</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: B</strong><br>
+                <strong>Explanation:</strong> Basel II refined risk assessment and covered credit, operational and market risks.
+            </div>
+        </div>
+
+        <!-- Question 55 -->
+        <div class="question-card" data-answer="B">
+            <div class="question-number">Question 55</div>
+            <div class="question-text">Which combination is characteristic of Basel III in the chapter?</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. Removing capital requirements and liquidity standards</li>
+                <li class="option-item" data-option="B">B. Improving capital quality/quantity and introducing LCR, NSFR and a non-risk-based leverage ratio</li>
+                <li class="option-item" data-option="C">C. Replacing banks with NBFCs</li>
+                <li class="option-item" data-option="D">D. Limiting supervision to operational risk only</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: B</strong><br>
+                <strong>Explanation:</strong> Basel III followed the global financial crisis and strengthened capital, liquidity and leverage requirements.
+            </div>
+        </div>
+
+        <!-- Question 56 -->
+        <div class="question-card" data-answer="D">
+            <div class="question-number">Question 56</div>
+            <div class="question-text">Which of the following is NOT one of the NPA crisis causes listed in the chapter?</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. Economic slowdown</li>
+                <li class="option-item" data-option="B">B. Fraud and malpractices</li>
+                <li class="option-item" data-option="C">C. Inadequate risk management</li>
+                <li class="option-item" data-option="D">D. Excessively strong borrower credit assessment in every case</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: D</strong><br>
+                <strong>Explanation:</strong> The chapter lists slowdown, fraud/malpractices and inadequate risk management.
+            </div>
+        </div>
+
+        <!-- Question 57 -->
+        <div class="question-card" data-answer="B">
+            <div class="question-number">Question 57</div>
+            <div class="question-text">Why can rising NPAs reduce future lending by banks?</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. Banks must increase coin minting</li>
+                <li class="option-item" data-option="B">B. Provisions reduce profitability and resources available to lend</li>
+                <li class="option-item" data-option="C">C. NPAs automatically increase deposits</li>
+                <li class="option-item" data-option="D">D. NPAs eliminate the need for capital</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: B</strong><br>
+                <strong>Explanation:</strong> The chapter notes that provisioning for NPAs reduces profitability and lending capacity.
+            </div>
+        </div>
+
+        <!-- Question 58 -->
+        <div class="question-card" data-answer="A">
+            <div class="question-number">Question 58</div>
+            <div class="question-text">Which recovery mechanism is described as enabling banks to take possession of and sell secured assets without going to court?</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. SARFAESI Act, 2002</li>
+                <li class="option-item" data-option="B">B. Payment and Settlement Systems Act, 2007</li>
+                <li class="option-item" data-option="C">C. Coinage Act, 2011</li>
+                <li class="option-item" data-option="D">D. RBI Act, 1934</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: A</strong><br>
+                <strong>Explanation:</strong> SARFAESI gives banks and financial institutions powers to enforce security interests without court intervention, as described in the notes.
+            </div>
+        </div>
+
+        <!-- Question 59 -->
+        <div class="question-card" data-answer="B">
+            <div class="question-number">Question 59</div>
+            <div class="question-text">Which mechanism is described as a special forum established in 1993 to handle bad-loan recovery cases?</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. Lok Adalats</li>
+                <li class="option-item" data-option="B">B. DRTs</li>
+                <li class="option-item" data-option="C">C. NARCL</li>
+                <li class="option-item" data-option="D">D. FSLRC</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: B</strong><br>
+                <strong>Explanation:</strong> Debt Recovery Tribunals were established in 1993, according to the chapter.
+            </div>
+        </div>
+
+        <!-- Question 60 -->
+        <div class="question-card" data-answer="A">
+            <div class="question-number">Question 60</div>
+            <div class="question-text">Which institution/process was described as facilitating out-of-court settlement through mediation and conciliation, and established in 1987?</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. Lok Adalats</li>
+                <li class="option-item" data-option="B">B. DRTs</li>
+                <li class="option-item" data-option="C">C. NARCL</li>
+                <li class="option-item" data-option="D">D. NPCI</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: A</strong><br>
+                <strong>Explanation:</strong> The chapter describes Lok Adalats in these terms.
+            </div>
+        </div>
+
+        <!-- Question 61 -->
+        <div class="question-card" data-answer="C">
+            <div class="question-number">Question 61</div>
+            <div class="question-text">An ARC buys a bank's ₹200 crore bad loan for ₹130 crore. The haircut relative to face value is:</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. 15%</li>
+                <li class="option-item" data-option="B">B. 30%</li>
+                <li class="option-item" data-option="C">C. 35%</li>
+                <li class="option-item" data-option="D">D. 65%</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: C</strong><br>
+                <strong>Explanation:</strong> Haircut = (200 − 130)/200 × 100 = 35%.
+            </div>
+        </div>
+
+        <!-- Question 62 -->
+        <div class="question-card" data-answer="B">
+            <div class="question-number">Question 62</div>
+            <div class="question-text">Which arrangement operationalised the Bad Bank mechanism announced in 2021, according to the notes?</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. SIDBI and NABARD</li>
+                <li class="option-item" data-option="B">B. NARCL and IDRCL</li>
+                <li class="option-item" data-option="C">C. RBI and NPCI</li>
+                <li class="option-item" data-option="D">D. DRT and Lok Adalat</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: B</strong><br>
+                <strong>Explanation:</strong> The chapter names National Asset Reconstruction Company Limited and India Debt Resolution Company Limited.
+            </div>
+        </div>
+
+        <!-- Question 63 -->
+        <div class="question-card" data-answer="A">
+            <div class="question-number">Question 63</div>
+            <div class="question-text">Which committee recommended reducing SLR and CRR, liberalising banking and establishing ARCs, according to the chapter?</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. Narasimham Committee I (1991)</li>
+                <li class="option-item" data-option="B">B. Narasimham Committee II (1998)</li>
+                <li class="option-item" data-option="C">C. P.J. Nayak Committee (2014)</li>
+                <li class="option-item" data-option="D">D. Bimal Jalan Committee (2019)</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: A</strong><br>
+                <strong>Explanation:</strong> These recommendations are listed under Narasimham Committee I.
+            </div>
+        </div>
+
+        <!-- Question 64 -->
+        <div class="question-card" data-answer="B">
+            <div class="question-number">Question 64</div>
+            <div class="question-text">Which committee is linked in the chapter with a recommendation to reduce the government's stake in PSBs below 33% and establish a Credit Information Bureau?</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. Narasimham I</li>
+                <li class="option-item" data-option="B">B. Narasimham II</li>
+                <li class="option-item" data-option="C">C. Nachiket Mor</li>
+                <li class="option-item" data-option="D">D. FSLRC</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: B</strong><br>
+                <strong>Explanation:</strong> These recommendations are attributed to Narasimham Committee II (1998).
+            </div>
+        </div>
+
+        <!-- Question 65 -->
+        <div class="question-card" data-answer="B">
+            <div class="question-number">Question 65</div>
+            <div class="question-text">Which committee's recommendations included universal bank accounts for every adult and payment banks?</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. Raghuram Rajan Committee</li>
+                <li class="option-item" data-option="B">B. Nachiket Mor Committee</li>
+                <li class="option-item" data-option="C">C. Bimal Jalan Committee</li>
+                <li class="option-item" data-option="D">D. P.J. Nayak Committee</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: B</strong><br>
+                <strong>Explanation:</strong> The chapter links universal accounts and payment banks to Nachiket Mor Committee (2014).
+            </div>
+        </div>
+
+        <!-- Question 66 -->
+        <div class="question-card" data-answer="B">
+            <div class="question-number">Question 66</div>
+            <div class="question-text">Which pairing is correct according to the chapter?</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. FSLRC — RBI economic capital framework</li>
+                <li class="option-item" data-option="B">B. Bimal Jalan Committee — RBI economic capital framework and surplus distribution</li>
+                <li class="option-item" data-option="C">C. P.J. Nayak — FI-Index sub-indices</li>
+                <li class="option-item" data-option="D">D. Raghuram Rajan — SARFAESI Act</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: B</strong><br>
+                <strong>Explanation:</strong> Bimal Jalan Committee reviewed RBI's economic capital framework and surplus distribution.
+            </div>
+        </div>
+
+        <!-- Question 67 -->
+        <div class="question-card" data-answer="B">
+            <div class="question-number">Question 67</div>
+            <div class="question-text">The RBI Financial Inclusion Index has which weights in the uploaded chapter?</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. Access 45%, Usage 35%, Quality 20%</li>
+                <li class="option-item" data-option="B">B. Access 35%, Usage 45%, Quality 20%</li>
+                <li class="option-item" data-option="C">C. Access 20%, Usage 45%, Quality 35%</li>
+                <li class="option-item" data-option="D">D. Equal weights of one-third each</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: B</strong><br>
+                <strong>Explanation:</strong> The chapter states Access 35%, Usage 45% and Quality 20%.
+            </div>
+        </div>
+
+        <!-- Question 68 -->
+        <div class="question-card" data-answer="A">
+            <div class="question-number">Question 68</div>
+            <div class="question-text">Which scheme-system pair is correctly matched?</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. JAM Trinity — Jan Dhan, Aadhaar, Mobile</li>
+                <li class="option-item" data-option="B">B. AEPS — account access through SWIFT messages</li>
+                <li class="option-item" data-option="C">C. PMJJBY — accident insurance only</li>
+                <li class="option-item" data-option="D">D. PMSBY — life insurance only</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: A</strong><br>
+                <strong>Explanation:</strong> JAM combines Jan Dhan, Aadhaar and mobile. The chapter assigns PMJJBY to life and PMSBY to accident insurance.
+            </div>
+        </div>
+
+        <!-- Question 69 -->
+        <div class="question-card" data-answer="B">
+            <div class="question-number">Question 69</div>
+            <div class="question-text">A local entrepreneur is authorized by a bank to provide deposits, withdrawals, account opening and remittances in a village without a branch. This person/entity is a:</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. D-SIB</li>
+                <li class="option-item" data-option="B">B. Banking Correspondent</li>
+                <li class="option-item" data-option="C">C. ARC</li>
+                <li class="option-item" data-option="D">D. Credit Information Bureau</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: B</strong><br>
+                <strong>Explanation:</strong> Banking correspondents provide basic services where banks may lack physical presence.
+            </div>
+        </div>
+
+        <!-- Question 70 -->
+        <div class="question-card" data-answer="A">
+            <div class="question-number">Question 70</div>
+            <div class="question-text">Which system uses biometric authentication to access bank accounts, according to the chapter?</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. AEPS</li>
+                <li class="option-item" data-option="B">B. CTS</li>
+                <li class="option-item" data-option="C">C. SWIFT</li>
+                <li class="option-item" data-option="D">D. NACH</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: A</strong><br>
+                <strong>Explanation:</strong> AEPS uses biometric authentication linked to the unique identity system.
+            </div>
+        </div>
+
+        <!-- Question 71 -->
+        <div class="question-card" data-answer="B">
+            <div class="question-number">Question 71</div>
+            <div class="question-text">Which statement about SWIFT is correct?</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. It is itself the final payment settlement system</li>
+                <li class="option-item" data-option="B">B. It is a standardized secure messaging network supporting international financial transactions</li>
+                <li class="option-item" data-option="C">C. It is India's domestic card network</li>
+                <li class="option-item" data-option="D">D. It is an RBI liquidity ratio</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: B</strong><br>
+                <strong>Explanation:</strong> The chapter explicitly says SWIFT is a messaging system, not a payment system itself.
+            </div>
+        </div>
+
+        <!-- Question 72 -->
+        <div class="question-card" data-answer="B">
+            <div class="question-number">Question 72</div>
+            <div class="question-text">A financial intermediary lends to borrowers with poor credit histories and charges a higher interest rate to compensate for higher default risk. This is:</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. Islamic banking</li>
+                <li class="option-item" data-option="B">B. Subprime lending</li>
+                <li class="option-item" data-option="C">C. White-label banking</li>
+                <li class="option-item" data-option="D">D. Net settlement</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: B</strong><br>
+                <strong>Explanation:</strong> This is the chapter's definition of subprime lending.
+            </div>
+        </div>
+
+        <!-- Question 73 -->
+        <div class="question-card" data-answer="B">
+            <div class="question-number">Question 73</div>
+            <div class="question-text">Which statement about Islamic banking matches the chapter?</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. It requires interest-based lending</li>
+                <li class="option-item" data-option="B">B. It prohibits riba and may use ethical investment and profit-sharing arrangements</li>
+                <li class="option-item" data-option="C">C. It is a form of cheque truncation</li>
+                <li class="option-item" data-option="D">D. It is synonymous with NBFC refinancing</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: B</strong><br>
+                <strong>Explanation:</strong> The notes describe Islamic banking as prohibiting interest and using ethical investment/profit-sharing structures.
+            </div>
+        </div>
+
+        <!-- Question 74 -->
+        <div class="question-card" data-answer="B">
+            <div class="question-number">Question 74</div>
+            <div class="question-text">Which is the best description of a Domestic Systemically Important Bank (D-SIB)?</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. Any bank with no deposits</li>
+                <li class="option-item" data-option="B">B. A bank whose failure could significantly affect the domestic economy due to size, interconnectedness and importance</li>
+                <li class="option-item" data-option="C">C. A bank operating only in one district</li>
+                <li class="option-item" data-option="D">D. A bank that is exempt from extra capital requirements</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: B</strong><br>
+                <strong>Explanation:</strong> D-SIBs are subject to stricter oversight and additional capital buffers due to systemic importance.
+            </div>
+        </div>
+
+        <!-- Question 75 -->
+        <div class="question-card" data-answer="B">
+            <div class="question-number">Question 75</div>
+            <div class="question-text">A bank's assets are highly liquid for the next month, but its funding structure is unstable over longer horizons. Which indicator is designed most directly to assess stable longer-term funding?</div>
+            <ul class="options-list">
+                <li class="option-item" data-option="A">A. LCR</li>
+                <li class="option-item" data-option="B">B. NSFR</li>
+                <li class="option-item" data-option="C">C. RoA</li>
+                <li class="option-item" data-option="D">D. Slippage ratio</li>
+            </ul>
+            <button class="btn-toggle" onclick="toggleExplanation(this)">Show Explanation</button>
+            <div class="explanation-box">
+                <strong>Answer: B</strong><br>
+                <strong>Explanation:</strong> LCR focuses on a 30-day stress horizon; NSFR assesses stable funding relative to required stable funding.
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script>
+    document.querySelectorAll('.question-card').forEach(card => {
+        const correctAnswer = card.getAttribute('data-answer');
+        const options = card.querySelectorAll('.option-item');
+        
+        options.forEach(option => {
+            option.addEventListener('click', function() {
+                // Clear previous selections in this card
+                options.forEach(opt => {
+                    opt.classList.remove('correct', 'incorrect');
+                });
+                
+                const selectedOption = this.getAttribute('data-option');
+                if (selectedOption === correctAnswer) {
+                    this.classList.add('correct');
+                } else {
+                    this.classList.add('incorrect');
+                    // Highlight the correct answer automatically
+                    options.forEach(opt => {
+                        if (opt.getAttribute('data-option') === correctAnswer) {
+                            opt.classList.add('correct');
+                        }
+                    });
+                }
+                
+                // Show explanation on answer selection
+                const explanation = card.querySelector('.explanation-box');
+                explanation.classList.add('show');
+                const btn = card.querySelector('.btn-toggle');
+                btn.textContent = 'Hide Explanation';
+            });
+        });
+    });
+
+    function toggleExplanation(button) {
+        const explanationBox = button.nextElementSibling;
+        explanationBox.classList.toggle('show');
+        if (explanationBox.classList.contains('show')) {
+            button.textContent = 'Hide Explanation';
+        } else {
+            button.textContent = 'Show Explanation';
+        }
+    }
+</script>
+</body>
+</html>
